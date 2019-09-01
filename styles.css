@@ -1,0 +1,96 @@
+body {
+    text-align: center;
+
+    background-color: #59ACE0;
+
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+    color: white;
+}
+
+#description {
+    padding: 10px 0;
+
+    font-size: 19px;
+}
+
+#survey-form {
+    width: 80%;
+    margin: auto;
+    padding: 25px 0;
+
+    border-radius: 10px;
+    background-color: #FAFAFA;
+}
+
+.rowTab {
+    display: block;
+
+    margin: 25px 0;
+
+    text-align: center;
+}
+
+.labels {
+    display: inline-block;
+
+    width: 40%;
+    padding-right: 10px;
+
+    text-align: right;
+    vertical-align: top;
+}
+
+.rightTab {
+    display: inline-block;
+
+    width: 40%;
+    padding-left: 10px;
+
+    text-align: left;
+}
+
+input[type="text"], input[type="email"], input[type="number"] {
+    width: 50%;
+    height: 20px;
+    padding: 5px;
+
+    color: #EEE;
+    border: 1px solid #EEE;
+    border-radius: 2px;
+}
+
+select {
+    border: 1px solid #EEE;
+    border-radius: 2px;
+    background-color: white;
+}
+
+#textarea {
+    width: 50%;
+    padding: 5px;
+
+    border: 1px solid #EEE;
+    border-radius: 2px;
+}
+
+#submit {
+    width: 100px;
+    height: 35px;
+    margin: 15px 0;
+
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    background-color: #59ACE0;
+
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 15px;
+}
